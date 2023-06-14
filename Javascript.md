@@ -44,27 +44,28 @@ There are 3 patterns:
 j = 1
 1
 
+//adition
 j = j + 1
 2
-
+//substraction
 j = j - 5
 -3
-
+//multiplication
 j = j * 3
 -9
-
+//division
 j = j / 2
 -4.5
 
 j = 45
 45
-
+//module
 k = j % 7
 3
-
+//increment
 k++
 4
-
+//decrement
 --k
 3
 
@@ -80,11 +81,28 @@ k++
 || -> OR
 ! -> NOT
 
-## Concatenation 
+### Concatenation 
 You use (+)
 example: "hi " **+** "my friend"
 
+### Determining type
+You can use the unary **typeof** operator
 
+## Functions
+Are indicated using the **function** keyword
+```javascript
+function calculateRectangleArea(width, height) {
+  var area = width * height;
+  return area;
+}
+
+// Example usage
+var width = 5;
+var height = 3;
+var rectangleArea = calculateRectangleArea(width, height);
+console.log(rectangleArea); // Output: 15
+
+```
 
 
 
