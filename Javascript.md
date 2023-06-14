@@ -39,12 +39,51 @@ There are 3 patterns:
 * Ends with a semicolon (;)
 * Indentation doesn´t matter
 
-## Operators
+## Arithmetic Operators
 ```javascript
 j = 1
 1
+
 j = j + 1
 2
+
+j = j - 5
+-3
+
+j = j * 3
+-9
+
+j = j / 2
+-4.5
+
+j = 45
+45
+
+k = j % 7
+3
+
+k++
+4
+
+--k
+3
+
+//We also have += , -=, *=, /=
+```
+## Comparison operators
+```javascript
+// Most common: ==, !=, <, <=, >=
+// === comparison without conversion type
+```
+## Logical operators
+&& -> AND
+|| -> OR
+! -> NOT
+
+## Concatenation 
+You use (+)
+example: "hi " **+** "my friend"
+
 
 
 
