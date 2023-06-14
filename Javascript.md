@@ -25,3 +25,12 @@ There are 3 patterns:
 ```html
 <script src="your_file.js"></script>
 ```
+
+## Comments
+```javascript
+// One line
+/* 
+    Multi-line
+*/
+```
+
