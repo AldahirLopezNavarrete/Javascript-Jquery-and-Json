@@ -78,7 +78,9 @@ k++
 ```
 ## Logical operators
 && -> AND
+
 || -> OR
+
 ! -> NOT
 
 ### Concatenation 
@@ -103,7 +105,7 @@ var rectangleArea = calculateRectangleArea(width, height);
 console.log(rectangleArea); // Output: 15
 
 ```
-
+**var** is the keyword to declarate local variables
 
 
 
