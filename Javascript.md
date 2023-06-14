@@ -29,8 +29,24 @@ There are 3 patterns:
 ## Comments
 ```javascript
 // One line
+
 /* 
     Multi-line
 */
 ```
+
+## Statements
+* Ends with a semicolon (;)
+* Indentation doesn´t matter
+
+## Operators
+```javascript
+j = 1
+1
+j = j + 1
+2
+
+
+
+
 
